@@ -1,8 +1,7 @@
 body {
   font-family: 'Lato', sans-serif;
   font-size: 15px;
-	background: #d8ecf2;
-  background: linear-gradient(to right, #8e9eab, #eef2f3);
+background-color: #8e9eab;
 }
 
 .container {
@@ -30,7 +29,14 @@ body {
     margin-top: 50px;
 }
 
-#sofia:hover {
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    position: relative;
+}
+
+
+.hover:hover {
      outline: 0;
   box-shadow: 0 .5rem 0 -.25rem rgba(0,0,0,.1);
   opacity: 1;
@@ -66,16 +72,7 @@ body {
     margin-top: 50px;
 }
 
-#iben:hover {
-     outline: 0;
-  box-shadow: 0 .5rem 0 -.25rem rgba(0,0,0,.1);
-  opacity: 1;
-  -webkit-transform: scale(1.03);
-  transform:scale(1.03);
-  -webkit-transition: -webkit-transform .088s,box-shadow .088s;
-  transition: transform .088s,box-shadow .088s;
-  z-index: 1;
-}
+
 
 
   #fornavn_iben {
@@ -103,16 +100,7 @@ body {
     margin-top: 50px;
 }
 
-#morgan:hover {
-     outline: 0;
-  box-shadow: 0 .5rem 0 -.25rem rgba(0,0,0,.1);
-  opacity: 1;
-  -webkit-transform: scale(1.03);
-  transform:scale(1.03);
-  -webkit-transition: -webkit-transform .088s,box-shadow .088s;
-  transition: transform .088s,box-shadow .088s;
-  z-index: 1;
-}
+
 
   #fornavn_morgan {
       margin-top: 50px;
@@ -139,16 +127,6 @@ body {
     margin-top: 50px;
 }
 
-#jannick:hover {
-     outline: 0;
-  box-shadow: 0 .5rem 0 -.25rem rgba(0,0,0,.1);
-  opacity: 1;
-  -webkit-transform: scale(1.03);
-  transform:scale(1.03);
-  -webkit-transition: -webkit-transform .088s,box-shadow .088s;
-  transition: transform .088s,box-shadow .088s;
-  z-index: 1;
-}
 
   #fornavn_jannick {
       margin-top: 50px;
@@ -164,21 +142,21 @@ body {
 .moodboard {
     top: 10vw;
     left: 16vw;
-    position: absolute;
+    position: sticky;
     width: 70vw;
 }
 
 .persona_1 img {
     top: 10vw;
     left: 16vw;
-    position: absolute;
+    position: sticky;
     width: 70vw;
 }
 
 .persona_2 img {
     top: 65vw;
     left: 16vw;
-    position: absolute;
+    position: sticky;
     width: 70vw;
 }
 
@@ -251,7 +229,7 @@ nav {
 
 li a {
   text-decoration: none;
-  color: RGBA(67, 83, 99, 1);
+  color: white;
 border: solid #7b7b7b 1px;
   cursor: pointer;
 }
@@ -289,22 +267,22 @@ ul a:focus, ul a:hover {
 }
 
 .menu a:nth-child(1) {
-  background: #95c5db;
+  background: #2c3e50;
 }
 .menu a:nth-child(2) {
-  background: #94c1db;
+  background: #2c3e50;
 }
 .menu a:nth-child(3) {
-  background: #94bddb;
+  background: #2c3e50;
 }
 .menu a:nth-child(4) {
-  background: #94b9db;
+  background: #2c3e50;
 }
 .menu a:nth-child(5) {
-  background: #94b5db;
+  background: #2c3e50;
 }
 .menu a:nth-child(6) {
-  background: #94b2db;
+  background: #2c3e50;
 }
 
 .menu a:nth-child(6):hover {
