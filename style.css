@@ -171,7 +171,9 @@ h2 {
 
 ul {
     list-style: none;
-    margin-left: 250px;
+    margin-left: 300px;
+    width: 50vw;
+    height: 50vw;
     display: flex;
     flex-wrap: wrap;
     vertical-align: middle;
@@ -194,6 +196,38 @@ li {
 .h1_center1 {
     text-align: center;
     opacity: 0;
+}
+
+.roter180 {
+    transform: rotate(180deg);
+}
+
+.roter90 {
+    transform: rotate(90deg);
+}
+
+.roter-90 {
+    transform: rotate(-90deg);
+}
+
+container_2 {
+    position: absolute;
+
+}
+
+.container_2 img {
+    width: 100%;
+    max-width: 900px;
+    left: 10vw;
+}
+
+.link {
+    position: absolute;
+    text-decoration:none;
+    color: white;
+    font-size: 3rem;
+    top: 15vw;
+    left: 35vw;
 }
 
 nav {
